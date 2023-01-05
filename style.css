@@ -97,7 +97,7 @@ nav ul li a:hover::after{
 #about{
     max-width: 100%;
     height: 100vh;
-    background-image:linear-gradient(rgba(32, 30, 30, 0.9),rgba(21, 48, 26, 0.527)),url("./webHome.jpg");
+    background-image:linear-gradient(rgba(32, 30, 30, 0.9),rgba(21, 48, 26, 0.527)),url("images/webHome.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -245,7 +245,7 @@ nav ul li a:hover::after{
     width: 100%;
     height: 70vh;
     display: flex;
-    background-image: linear-gradient(rgba(32, 30, 30, 0.856),rgba(32, 30, 30, 0.856)),url("file:///C:/Users/User/Desktop/my%20potifolio%20website/images/contact_background.jpg");
+    background-image: linear-gradient(rgba(32, 30, 30, 0.856),rgba(32, 30, 30, 0.856)),url("images/contact_background.jpg");
     background-position: center;
     background-size: cover;
 }
