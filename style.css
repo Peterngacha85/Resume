@@ -464,4 +464,9 @@ nav ul li a:hover::after{
         background-color: red;
         overflow-y: hidden;
     }
+     .social_link{
+        bottom: -70px;
+        margin-right: -38px;
+    }
+}
 }
