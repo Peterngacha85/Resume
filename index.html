@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"></head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#About">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contacts">Contact</a></li>
+        <nav> 
+             <div id="menu_bar" onclick="show_nav_link();"><a href="#" id="logo">LOGO</a><button type="button" id="menu">MENU</button></div>
+            <ul id="navLinks">
+               
+                <li><a href="#About"  onclick = hide_link();>About</a></li>
+                <li><a href="#projects"  onclick = hide_link();>Projects</a></li>
+                <li><a href="#contacts"  onclick = hide_link();>Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -31,11 +33,15 @@
         <p><i>a Web Developer</i></p>
         </div>
     </div>
+    <div id="mobileView">
+        <h1>Hey I am Peter</h1>
+        <p><i>a Web Developer</i></p>
+    </div>
    
     </section>
    
     <section id="projects">
-        <h2 class="project_header"><div class="icon"></div> PROJECTS</h2>
+        <h2 class="project_header" id="padding_top"><div class="icon"></div> PROJECTS</h2>
         <div id="myProjects">
             <div class="my_projects one">
                 <h3 class="project1">Ngacha Realtors</h3>
@@ -54,18 +60,22 @@
                 <h3 class="project1">Ngacha Realtors</h3>
                 <h4 class="project1"></h4>My first web project about Ngacha Realtors <br>that deal with selling of properties, Land leasing <br> and investing</h4>
                 <br>
-                <h5 id="project-one-anchor" class="project1"> to get in touch with us, <br> <br> <a href="project%2010/index.html" target="_blank">Click here</a></h5>
+                <h5 id="project-one-anchor" class="project1"> to get in touch with us, <br> <br> <a href="file:///C:/Users/User/Desktop/project%2010/index.html" target="_blank">Click here</a></h5>
           
             </div>
 
         </div>
+
+
+
+        
     </section>
     <section id="contacts">
         <h4 class = "project_header contact"><div class="icon"></div>CONTACTS</h4>
         <div id="mycontacts">
             <div class="contact_info">
                 <div class="sub_contact_info first">
-                    <img id="cont_icon" src="images/myIcon.jpeg" alt="">
+                    <img id="cont_icon" src="images/myIcon.jpeg" alt="Peter Ndegwa">
                     <hr id="hr1">
                 </div>
                 <div class="sub_contact_info second">
@@ -75,12 +85,13 @@
             </div>
             <div id="footer">
                 <div class="contact_footer "><h5><span class="contacts_header">PHONE</span></h5>
-                <p><span class="call">call:</span> +254 716462683</p><p> <span class="call">call:</span>+254 794108498</p></div>
+                <p><span class="call">call:</span> +254 716462683</p><p> <span class="call">call:</span> +254 794108498</p></div>
                 <div class="contact_footer"><h5><span class="contacts_header">GMAIL</span></h5><p>peterndegwangacha@gmail.com</p><p>peterngacha85@gmail.com</p></div>
                 <div class="contact_footer"><h5><span class="contacts_header">LOCATION</span></h5><p>Nairobi Kenya <br>Kasarani Season, <br>Jerusalem lane, <br>Biulding no'3769.</p></div>
             </div>
             <div class="copyright"><small>Copyright 2023 [Peter Ngacha]</small></div>
         </div>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>
