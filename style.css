@@ -464,9 +464,35 @@ nav ul li a:hover::after{
         background-color: red;
         overflow-y: hidden;
     }
-     .social_link{
+    .social_link{
         bottom: -70px;
         margin-right: -38px;
     }
-}
+    /*-----------------------------contact page*/
+    .contact_info{
+        display: block !important;
+        align-items: center;
+        min-height: fit-content;
+    }
+    .sub_contact_info{
+        width: 100% !important;
+    }
+    .first{
+       
+        width: 100%;
+        height: calc(50%);
+    }
+    #cont_icon{
+        margin-left: calc(-45%);
+        border-radius: 60px 0px;
+    }
+    hr{
+        display: none;
+    }
+    .second{
+        margin-top: 15% !important;
+    }
+    #more_info{
+        margin: 0px;
+    }
 }
