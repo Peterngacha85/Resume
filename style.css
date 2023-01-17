@@ -461,7 +461,6 @@ nav ul li a:hover::after{
     }
     #about{
         height: calc(100%);
-        background-color: red;
         overflow-y: hidden;
     }
     .social_link{
